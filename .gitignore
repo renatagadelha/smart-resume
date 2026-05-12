@@ -1,0 +1,36 @@
+# WordPress core
+wp-admin/
+wp-includes/
+
+# WordPress config
+wp-config.php
+
+# Uploads and cache
+wp-content/uploads/
+wp-content/cache/
+
+# Third-party plugins
+wp-content/plugins/*
+!wp-content/plugins/seu-plugin/
+
+# System files
+.DS_Store
+__MACOSX/
+Thumbs.db
+
+# Dependencies/build
+node_modules/
+.env
+dist/
+build/
+
+# Editable/source files
+*.psd
+*.ai
+*.sketch
+
+# Backups/dumps
+*.sql
+*.zip
+*.tar
+*.gz
